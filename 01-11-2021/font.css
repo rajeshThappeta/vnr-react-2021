@@ -1,0 +1,20 @@
+div{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.heading{
+    color:deeppink;
+}
+
+.fa-accusoft{
+    color:dodgerblue;
+    font-size: 40px;
+   
+}
+
+.last{
+    color:green;
+    border:2px solid yellowgreen;
+    
+}
