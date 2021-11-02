@@ -1,0 +1,19 @@
+.list1 li{
+    color:turquoise;
+}
+
+.list1>h1{
+    color:rgb(165, 163, 140);
+}
+
+.list2>h1{
+    color:indianred;
+}
+
+.list1>p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list2>p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
