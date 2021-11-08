@@ -1,0 +1,46 @@
+form{
+    width:400px;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: rgb(212, 202, 202); */
+    padding: 50px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="email"]
+,select,textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input:focus{
+    background-color: gray;
+    color:white;
+   
+}
+
+button{
+
+    padding: 10px 25px;
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    
+}
+
+legend{
+    font-size: 1.7rem;
+    background-color: indianred;
+    color: indigo;
+}

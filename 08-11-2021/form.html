@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form demo</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <!-- user login form -->
+    <form>
+
+        <fieldset>
+            <legend>Signup form</legend>
+            <!-- username -->
+            <div>
+                <label for="un">Username</label>
+                <input type="text" name="username" id="un" placeholder="Enter username here.." autocomplete="off">
+            </div>
+            <!-- password -->
+            <div>
+                <label for="pw">Password</label>
+                <input type="password" name="password" id="pw">
+            </div>
+            <!-- salary -->
+            <div>
+                <label for="salary">Salary</label>
+                <input type="number" name="salary" id="salary">
+            </div>
+
+            <!-- email -->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <!-- date of birth -->
+            <div>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <!-- user state -->
+            <div>
+                <label for="state">Select state</label>
+                <select name="state" id="state">
+                    <option value="telangana">Telangana</option>
+                    <option value="ap">Andhra pradesh</option>
+                    <option value="kerala">Kerala</option>
+                </select>
+            </div>
+
+            <!-- user feedback -->
+            <div>
+                <label for="fb">Feedback</label>
+                <textarea name="feedback" id="fb" rows="5"></textarea>
+
+            </div>
+
+            <!-- profile pic -->
+            <div>
+                <label for="profile-pic">Select profile image</label>
+                <input type="file" name="profile" id="profile-pic">
+            </div>
+
+            <!-- skills -->
+            <div>
+                <label for="">Select your skills</label>
+                <div>
+                    <!-- skills-1 -->
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <!-- skills-2 -->
+                    <input type="checkbox" name="javascript" id="js">
+                    <label for="js">JavaScript</label>
+                </div>
+            </div>
+
+
+            <!-- gender -->
+            <div>
+                <label for="">Select your Gender</label>
+                <div>
+                    <!-- skills-1 -->
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <!-- skills-2 -->
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+
+            <!-- submit button -->
+            <div>
+                <button type="submit">Signup</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
