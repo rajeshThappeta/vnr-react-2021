@@ -1,0 +1,70 @@
+img{
+    width:75%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    /* font-size: calc(1.3rem + 3.6vw); */
+    
+    color:violet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+div{
+    width:75%;
+    height: 3rem;
+    background-color: lightcoral;
+    margin: auto;
+    max-width: 500px;
+}
+
+
+@media  (min-width: 320) and (max-width:480px) {
+    h1 {
+      font-size: 1rem;
+      color:orangered;
+    }
+    div{
+        background-color: lightgreen;
+    }
+  }
+
+
+  @media  (min-width: 481px) and (max-width:768px) {
+    h1 {
+      font-size: 3rem;
+      color:green;
+    }
+
+    div{
+        background-color: lightskyblue;
+    }
+  }
+  
+  @media  (min-width: 769px) and (max-width:1024px) {
+    h1 {
+      font-size: 4rem;
+      color:royalblue;
+    }
+    div{
+        background-color: maroon;
+    }
+  }
+
+
+  @media (min-width:1025px) {
+
+        h1{
+            font-size: 5rem;
+            color:indigo;
+        }
+      
+        div{
+            background-color: mediumvioletred;
+        }
+  }
+
